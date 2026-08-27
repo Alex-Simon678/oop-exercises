@@ -6,4 +6,8 @@ class Apple extends Fruit implements Peelable
     {
         echo "Apple peeled";
     }
+    public function isExotic(): bool
+    {
+        return false;
+    }
 }

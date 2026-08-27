@@ -20,4 +20,6 @@ abstract class Fruit
         return $this->calorie;
     }
 
+    public abstract function isExotic(): bool;
+
 }

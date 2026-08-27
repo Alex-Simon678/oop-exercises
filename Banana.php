@@ -7,4 +7,8 @@ class Banana extends Fruit implements Peelable
     {
         echo "Banana peeled";
     }
+    public function isExotic(): bool
+    {
+        return false;
+    }
 }
